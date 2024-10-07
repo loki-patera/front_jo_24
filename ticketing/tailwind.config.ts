@@ -9,8 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        yellowjo: "#ffbd59",
+        yellowmidlightjo: "#ffd79b",
+        yellowlightjo: "#fff2de",
+        yellowdarkjo: "#cc9747",
+        yellowxlightjo: "#fff8ee",
+        bluejo: "#4bb1d7",
+        bluemidlightjo: "#93d0e7",
+        bluelightjo: "#dbeff7",
+        bluedarkjo: "#3c8eac",
+        bluexlightjo: "#edf7fb"
       },
     },
   },

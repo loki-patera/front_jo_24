@@ -3,6 +3,7 @@ import HeaderImage from "./HeaderImage"
 const Header = () => {
 
   return (
+    
     <div className="relative isolate m-2 2xl:mx-48 px-6 pt-14 lg:px-8">
 
       <HeaderImage />

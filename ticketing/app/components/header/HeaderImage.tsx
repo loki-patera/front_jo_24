@@ -4,6 +4,7 @@ import cyclisme from "/public/cyclisme.jpg"
 const HeaderImage = () => {
 
   return (
+    
     <Image
       alt="Cyclisme"
       src={cyclisme}

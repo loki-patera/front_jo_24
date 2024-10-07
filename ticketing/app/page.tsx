@@ -1,4 +1,5 @@
 import Header from "./components/header/Header";
+import SportsSection from "./components/section/sportSection/SportSection";
 
 export default function Home() {
 
@@ -6,6 +7,10 @@ export default function Home() {
 
     <>
       <Header />
+
+      <main>
+        <SportsSection />
+      </main>
     </>
   )
 }

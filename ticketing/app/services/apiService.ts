@@ -25,4 +25,4 @@ const apiService = {
   }
 }
 
-export default apiService
+module.exports = { apiService }

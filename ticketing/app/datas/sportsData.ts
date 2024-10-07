@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import apiService from "../services/apiService"
+const { apiService } = require("../services/apiService")
 import { SportType } from "../components/section/sportSection/SportList"
 
 const sportsData = () => {

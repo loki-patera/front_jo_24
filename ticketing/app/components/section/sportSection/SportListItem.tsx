@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { SportType } from "./SportList"
+import useEventModal from "@/app/hooks/useEventModal"
 
 interface SportProps {
   sport: SportType
@@ -8,6 +9,8 @@ interface SportProps {
 const SportListItem: React.FC<SportProps> = ({
   sport
 }) => {
+
+  const eventModal = useEventModal()
 
   return (
     <li key={sport.id_sport}>
@@ -20,10 +23,14 @@ const SportListItem: React.FC<SportProps> = ({
         <Image
           alt={sport.title}
           src={sport.url_image}
-          className="rounded-lg hover:border hover:border-bluejo p-1"
+          className="rounded-lg cursor-pointer hover:border hover:border-bluejo p-1"
           width={180}
           height={0}
-          style={{ cursor: 'pointer'}}
+          onClick={() => {
+            eventModal.id_sport = sport.id_sport
+            eventModal.label = sport.title
+            eventModal.open()
+          }}
         />
       </div>
     </li>

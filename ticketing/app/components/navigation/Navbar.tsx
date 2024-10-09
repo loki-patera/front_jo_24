@@ -7,7 +7,7 @@ import NavLink from "./NavLink"
 import MobileMenuLink from "./mobileMenu/MobileMenuLink"
 
 const links = [
-  { name: 'Épreuves sportives', href: '#' },
+  { name: 'Épreuves sportives', href: '/#sportsSection' },
   { name: 'Réserver', href: '#' }
 ]
 

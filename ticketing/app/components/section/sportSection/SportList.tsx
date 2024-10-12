@@ -3,12 +3,6 @@
 import sportsData from "@/app/datas/sportsData"
 import SportListItem from "./SportListItem"
 
-export type SportType = {
-  id_sport: number
-  title: string
-  url_image: string
-}
-
 const SportList = () => {
 
   return (

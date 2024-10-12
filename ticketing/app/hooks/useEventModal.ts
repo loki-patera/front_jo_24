@@ -6,7 +6,7 @@ interface EventModalTool {
   open: () => void
   close: () => void
   id_sport: number
-  label: string
+  label?: string
 }
 
 const useEventModal = create<EventModalTool>((set) => ({
@@ -14,8 +14,7 @@ const useEventModal = create<EventModalTool>((set) => ({
   isOpen: false,
   open: () => set({ isOpen: true }),
   close: () => set({ isOpen: false }),
-  id_sport: 0,
-  label: ''
+  id_sport: 0
 }))
 
 export default useEventModal

@@ -17,8 +17,8 @@ const EventModal = () => {
     <Modal
       isOpen={eventModal.isOpen}
       close={eventModal.close}
-      content={content}
       label={eventModal.label}
+      content={content}
     />
   )
 }

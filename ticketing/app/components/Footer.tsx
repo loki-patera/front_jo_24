@@ -13,7 +13,7 @@ const Footer = () => {
           </li>
           <li className="mx-auto flex max-w-xs flex-col gap-y-4">
             <Link
-              href="/legal"
+              href="/pages/legal"
               className="text-bluejo border-b border-yellowjo hover:border-bluejo hover:text-yellowdarkjo"
             >
               Mentions légales
@@ -21,7 +21,7 @@ const Footer = () => {
           </li>
           <li className="mx-auto flex max-w-xs flex-col gap-y-4">
             <Link
-              href="/privacyPolicy"
+              href="/pages/privacyPolicy"
               className="text-bluejo border-b border-yellowjo hover:border-bluejo hover:text-yellowdarkjo"
             >
               Politique de confidentialité

@@ -1,6 +1,6 @@
 import Image from "next/image"
-import { SportType } from "./SportList"
 import useEventModal from "@/app/hooks/useEventModal"
+import { SportType } from "@/app/types/SportType"
 
 interface SportProps {
   sport: SportType
@@ -13,6 +13,7 @@ const SportListItem: React.FC<SportProps> = ({
   const eventModal = useEventModal()
 
   return (
+
     <li key={sport.id_sport}>
       <div>
         <div className="mb-1">

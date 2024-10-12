@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { EventType } from "../components/modal/eventModal/EventModalList"
+import { EventType } from "../types/EventType"
 const { apiService } = require("../services/apiService")
 
 const eventsData = (id: number) => {

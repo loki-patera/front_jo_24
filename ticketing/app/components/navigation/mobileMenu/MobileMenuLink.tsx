@@ -1,5 +1,5 @@
+import { LinkType } from "@/app/types/LinkType"
 import { DisclosureButton } from "@headlessui/react"
-import { LinkType } from "../Navbar"
 
 interface LinkProps {
   link: LinkType

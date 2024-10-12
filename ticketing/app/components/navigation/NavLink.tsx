@@ -1,4 +1,4 @@
-import { LinkType } from "./Navbar"
+import { LinkType } from "@/app/types/LinkType"
 
 interface LinkProps {
   link: LinkType

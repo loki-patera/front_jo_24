@@ -8,13 +8,8 @@ import MobileMenuLink from "./mobileMenu/MobileMenuLink"
 
 const links = [
   { name: 'Épreuves sportives', href: '/#sportsSection' },
-  { name: 'Réserver', href: '#' }
+  { name: 'Réserver', href: '/pages/booking' }
 ]
-
-export type LinkType = {
-  href: string
-  name: string
-}
 
 const Navbar = () => {
 

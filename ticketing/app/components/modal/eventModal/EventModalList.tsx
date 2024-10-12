@@ -2,14 +2,6 @@ import eventsData from "@/app/datas/eventsData"
 import EventModalListItem from "./EventModalListItem"
 import useEventModal from "@/app/hooks/useEventModal"
 
-export type EventType = {
-  id_event: number
-  date: string
-  hours: string
-  location: string
-  price: string
-}
-
 const EventModalList = () => {
 
   const eventModal = useEventModal()

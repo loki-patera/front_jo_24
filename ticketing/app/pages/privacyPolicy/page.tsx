@@ -1,15 +1,15 @@
-const LegalPage = () => {
+const PrivacyPolicyPage = () => {
 
   return (
 
-    <main className="h-[75vh]">
+    <main className="h-[70vh]">
       <div className="m-4">
         <h1 className="text-center text-bluejo text-2xl pt-6">
-          Mentions légales
+          Politique de confidentialité
         </h1>
       </div>
     </main>
   )
 }
 
-export default LegalPage
+export default PrivacyPolicyPage

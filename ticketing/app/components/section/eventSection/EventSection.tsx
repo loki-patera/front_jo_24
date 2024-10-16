@@ -1,7 +1,7 @@
 import SportSelectedProps from "@/app/interfaces/SportSelectedProps"
-import SportFilterList from "./SportFilterList"
+import EventTable from "./EventTable"
 
-const SportFilter: React.FC<SportSelectedProps> = ({
+const EventSection: React.FC<SportSelectedProps> = ({
   sportSelected,
   setSportSelected
 }) => {
@@ -12,11 +12,11 @@ const SportFilter: React.FC<SportSelectedProps> = ({
       <div className="flex justify-center py-2">
         <h2 className="text-xl font-bold text-bluejo">
           <span className="border-b border-yellowjo pb-1">
-            Sélectionner une épreuve sportive
+            Liste des évènements
           </span>
         </h2>
       </div>
-      <SportFilterList
+      <EventTable
         sportSelected={sportSelected}
         setSportSelected={setSportSelected}
       />
@@ -24,4 +24,4 @@ const SportFilter: React.FC<SportSelectedProps> = ({
   )
 }
 
-export default SportFilter
+export default EventSection

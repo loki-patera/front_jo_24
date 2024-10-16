@@ -7,8 +7,8 @@ const MobileMenuButton = () => {
   return (
     
     <DisclosureButton
-      className="group relative inline-flex items-center justify-center rounded-md p-2 text-yellowjo
-        hover:bg-bluemidlightjo hover:text-yellowmidlightjo focus:outline-none focus:ring-2 focus:ring-inset
+      className="group relative inline-flex items-center justify-center rounded-md p-2 text-yellowdarkjo
+        hover:bg-bluelightjo hover:text-yellowxdarkjo focus:outline-none focus:ring-2 focus:ring-inset
         focus:ring-white"
     >
       <span className="absolute -inset-0.5" />

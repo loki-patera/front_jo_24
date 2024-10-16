@@ -9,7 +9,7 @@ const EventModalList = () => {
   return (
 
     <ul role="list" className="divide-y divide-bluejo">
-      {eventsData(eventModal.id_sport).map((event) => (
+      {eventsData(`${eventModal.id_sport}`).map((event) => (
         <EventModalListItem
           key={event.id_event}
           event={event}

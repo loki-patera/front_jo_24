@@ -9,16 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        yellowjo: "#ffbd59",
-        yellowmidlightjo: "#ffd79b",
-        yellowlightjo: "#fff2de",
+        yellowxdarkjo: "#805f2d",
         yellowdarkjo: "#cc9747",
+        yellowjo: "#ffbd59",
+        yellowlightjo: "#ffebcd",
         yellowxlightjo: "#fff8ee",
-        bluejo: "#4bb1d7",
-        bluemidlightjo: "#93d0e7",
-        bluelightjo: "#dbeff7",
+
+        bluexdarkjo: "#26596c",
         bluedarkjo: "#3c8eac",
-        bluexlightjo: "#edf7fb"
+        bluejo: "#4bb1d7",
+        bluelightjo: "#dbeff7",
+        bluexlightjo: "#edf7fb",
       },
     },
   },

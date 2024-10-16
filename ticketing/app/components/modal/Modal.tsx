@@ -41,8 +41,6 @@ const Modal: React.FC<ModalProps> = ({
 
   const submitBooking = () => {
 
-    const selectedSport = String(eventModal.id_sport)
-    sessionStorage.setItem('data', selectedSport)
     eventModal.close()
     router.push(`/pages/booking`)
   }
@@ -86,7 +84,7 @@ const Modal: React.FC<ModalProps> = ({
               <ModalButton
                 label="Annuler"
                 onClick={handleClose}
-                className="bg-yellowmidlightjo text-bluedarkjo hover:bg-yellowjo sm:mt-0"
+                className="bg-yellowlightjo text-bluedarkjo hover:bg-yellowjo mt-2 sm:mt-0"
               />
             </footer>
           </DialogPanel>

@@ -17,7 +17,7 @@ const SportListItem: React.FC<SportProps> = ({
     <li key={sport.id_sport}>
       <div>
         <div className="mb-1">
-          <h3 className="text-center font-semibold leading-7 tracking-tight text-yellowdarkjo">
+          <h3 className="text-center text-sm leading-4 text-yellowxdarkjo">
           {sport.title}
           </h3>
         </div>
